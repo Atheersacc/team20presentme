@@ -9,13 +9,30 @@ import SwiftUI
 
 struct Atheer: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        Image(.atheeer)
+        Text("Hey, I'm Atheer.")
+            .font(.system(size: 30))
+            .bold()
+        Text("Or Michael Scott in reality")
+            .font(.system(size: 20))
+            .foregroundColor(.red)
+        Image(.mather)
             .resizable()
             .scaledToFit()
-            .frame(width: 400,
-                   height: 400)
-            .cornerRadius(400)
+            .frame(width: 200,
+                   height:200)
+            .cornerRadius(300)
+        Text("I can work under pressure")
+            .font(.system(size: 20))
+            .bold()
+        Text("OR be the pressure🥰")
+            .foregroundColor(.red)
+            .bold()
+        Image(.aather)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 200,
+                   height:200)
+            .cornerRadius(300)
         
             
     }
