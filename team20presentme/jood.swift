@@ -10,7 +10,7 @@ import SwiftUI
 struct jood: View {
     var body: some View {
         
-        Text("Hello, i'm jood")
+        Text("Hello, i'm joodd")
         
         Text ("Or Luck in reality")
             .font(.system(size: 20))
@@ -30,3 +30,4 @@ struct jood: View {
 #Preview {
     jood()
 }
+
